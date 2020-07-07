@@ -1,0 +1,44 @@
+body {
+    background: rgb(255, 254, 249);
+    margin: 50px 100px;
+}
+#content-page {
+    line-height: 1.5;
+    font-size:18px;
+}
+.beagle-hover:hover {
+    color: blue;
+    cursor: pointer;
+}
+.beagle {
+    display: none;
+    position: absolute;
+    left: 20%; 
+    width:580px;
+}
+.beagle-hover:hover .beagle {
+    display: block;
+}
+.vl {
+    border-left: 1px solid rgb(182, 179, 179);
+    height: 600px; 
+    bottom: 70px; 
+    position: relative;
+}
+.beagle-content {
+    top:-660px;
+    left: 20px;
+    bottom: 70px;
+    position: relative;
+}
+.beagle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    border:2px solid rgb(182, 179, 179);
+    margin-left: 100px;
+    margin-top:10px;
+}
+.table {
+    padding-right: 20px;
+}
